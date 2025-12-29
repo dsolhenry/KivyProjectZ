@@ -1,0 +1,27 @@
+{
+  "tasks": [
+    {
+      "id": 2,
+      "text": "Create an apk file soon today is 29/12/25!!",
+      "completed": false,
+      "category": "General",
+      "created_at": "2025-12-29 00:20"
+    },
+    {
+      "id": 3,
+      "text": "Get my glasses!!",
+      "completed": false,
+      "category": "Health",
+      "created_at": "2025-12-29 00:21"
+    }
+  ],
+  "next_id": 4,
+  "categories": [
+    "General",
+    "Work",
+    "Personal",
+    "Shopping",
+    "Health",
+    "Study"
+  ]
+}
