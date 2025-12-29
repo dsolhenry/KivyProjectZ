@@ -1,0 +1,23 @@
+<MDTextField>:
+    mode: "rectangle"
+    size_hint_x: 0.7
+    hint_text_color: app.theme_cls.primary_color
+    line_color_focus: app.theme_cls.primary_color
+    radius: [10, 10, 10, 10]
+
+<MDRaisedButton>:
+    font_size: "14sp"
+    elevation_normal: 2
+    md_bg_color: app.theme_cls.primary_color
+
+<MDCard>:
+    elevation: 2
+    radius: [15, 15, 15, 15]
+    padding: "15dp"
+
+<OneLineIconListItem>:
+    theme_text_color: "Primary"
+    font_style: "Body1"
+    height: "56dp"
+    ripple_color: app.theme_cls.primary_light
+    bg_color: [1, 1, 1, 1] if self.state == "normal" else app.theme_cls.primary_light
