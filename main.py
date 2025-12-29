@@ -366,7 +366,7 @@ class TodoApp(MDApp):
         """Build the application"""
         self.theme_cls.primary_palette = "Green"
         self.theme_cls.theme_style = "Light"
-        self.title = "Todo App Enhanced"
+        self.title = "Phenry Todo App"
         
         # Create screen manager
         self.screen_manager = MDScreenManager()
